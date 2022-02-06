@@ -1,0 +1,27 @@
+body {
+  background-color: darkslategrey;
+  color: azure;
+  font-size: 1.1em;
+  text-align: center;
+  line-align: ;
+}
+h1 {
+  color: coral;
+  font-size: 80px;
+  text-align: center;
+}
+#intro {
+  font-size: 1.3em;
+}
+.colorful {
+  color: orange;
+}
+img {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+blockquote {
+  font-size: 30px;
+}
