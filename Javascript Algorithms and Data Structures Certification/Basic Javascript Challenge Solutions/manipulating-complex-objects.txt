@@ -1,0 +1,15 @@
+var myMusic = [
+  {
+    artist: "Kassy",
+    title: "One Sunny Day",
+    release_year: 2021,
+    formats: ["Youtube Music", "Deezer", "Spotify"],
+  },
+  // Add record here
+  {
+    artist: "Kim Na Young",
+    title: "There For You",
+    release_year: 2021,
+    formats: ["Youtube Music", "Deezer", "Spotify"]
+  }
+];
