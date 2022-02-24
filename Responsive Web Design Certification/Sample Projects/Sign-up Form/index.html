@@ -1,1 +1,81 @@
+<header class="header">
+  <h1 id="title" class="text-center">Sign Up Form</h1>
+</header>
+<p id="description" class="description text-center">**An All-Expense Paid Vacation</p>
+<div id="box-container">
+  <div id="box-1"></div>
+  <a id="main">
+    <div class="container">
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-group" placeholder="Enter Name" required />
+        </div>
 
+        <div>
+
+          <label id="number-label" for="age">Age</label>
+          <input type="number" name="age" id="number" min="1" max="100" class="form-group" placeholder="Enter Age">
+        </div>
+
+        <div><label id="destination-label" for="Destination">Destination</label>
+          <input type="text" name="location" id="destination" class="form-group" placeholder="Enter location" required />
+        </div>
+        <div><label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-group" placeholder="Enter Email" required />
+        </div>
+        <div class="form-group">
+          <label id="date-label" for="date">Travel Date</label>
+          <select id="dropdown" name="date" class="form-control" required>
+            <option disabled selected value>Select Date</option>
+            <option value="date1">November 29 - December 05</option>
+            <option value="date2">December 06 - December 12</option>
+            <option value="date3">December 13 - December 19</option>
+            <option value="date4">December 20 - December 26</option>
+            <option value="date5">December 27 - January 02</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="Travelby">Travel By</label>
+          <label>
+          <input name="vehicle" value="Plane" type="radio" class="input-radio" 
+                 checked
+                 />Plane</label>
+          <label>
+            <input name="vehicle" value="Boat" type="radio" class="input-radio" />Boat</label>
+          <label>
+            <input name="vehicle" value="Bus/Car" type="radio" class="input-radio" />Bus/Car</label>
+          <label>
+          <input name="vehicle" value="Motorcycle" type="radio" class="input-radio" />Motorcycle</label>
+    </div>
+    <div class="form-group">
+      <label for="checkbox-label">Status</label>
+      <div></div>
+      <label>
+      <input name="status" value="single" type="checkbox" class="input-checkbox" />Single</label>
+      <label>
+        <input name="status" value="inarelationship" type="checkbox" class="input-checkbox" />In A Relationship</label>
+      <label>
+      <input name="status" value="Married" type="checkbox" class="input-checkbox" />Married</label>
+      <label>
+      <input name="status" value="Widow" type="checkbox" class="input-checkbox" />Widow</label>
+    </div>
+        <div>
+        </div>
+    <div class="form-group">
+      <div>
+        </div>
+      <div class="comment suggestions-label">
+        <div>
+        </div><p></p>
+        <label id="suggestions" for="suggestions">Questions, Comments or Suggestions?</label>
+        <div>
+        </div>
+        <div><p></p>
+          <textarea class="textbox" rows="3" cols="30" name="questions" form="usrform">Enter your questions, comments here...</textarea>
+          <div></div>
+          <div class="form-group">
+            <input id="submit" type="submit" class="form-group" value="submit">
+
+            </form>
+          </div>
